@@ -4,7 +4,17 @@
 }
 
 :root{
-    background-color: #5c5077d8;
-    padding: 50px;
-    }
-    
+    --text-color: #000000;
+    --card-front-color: #72b972;
+    --card-back-color: #548b54;
+}
+body{
+    front-family: Tomorrow;
+}
+.cartao_conteudo {
+    background-color: #000000;
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
